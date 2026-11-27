@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChapterData
   title: Chapter3
   thumbnail: {fileID: 0}
-  sceneName: Chapter03
+  sceneName: ChapterStub
