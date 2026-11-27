@@ -2,8 +2,8 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// 해금 규칙 판단과 진행도 저장/로드를 담당. UI·씬 전환은 모른다.
-/// 진행도는 HighestClearedIndex 정수 하나로 표현한다 (-1 = 신규).
+/// 해금 규칙 판단과 진행도 저장/로드 담당
+/// 진행도는 HighestClearedIndex 정수 하나로 표현 (-1 = 신규).
 /// </summary>
 public static class ProgressService
 {
@@ -31,7 +31,7 @@ public static class ProgressService
         return ChapterState.Locked;
     }
 
-    /// <summary>클리어 기록. Max 적용으로 진행도는 후퇴하지 않으며 즉시 저장한다.</summary>
+    /// <summary>클리어 기록. Max 적용으로 진행도는 후퇴X, 즉시 저장</summary>
     public static void MarkCleared(int index)
     {
         int next = Mathf.Max(HighestClearedIndex, index);

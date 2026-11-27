@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// 챕터 슬롯(카드) 하나. 루트 오브젝트에 붙이고,
-/// 하위의 제목·썸네일·입장 버튼·아이콘을 Inspector로 연결해 한 곳에서 관리한다.
+/// 챕터 슬롯(카드) 하나. ChapterSlot 오브젝트에 스크립트 할당
+/// 제목·썸네일·입장 버튼·아이콘을 Inspector로 연결해 한 곳에서 관리
 /// </summary>
 public class ChapterSlot : MonoBehaviour
 {

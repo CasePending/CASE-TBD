@@ -2,8 +2,8 @@ using TMPro;
 using UnityEngine;
 
 /// <summary>
-/// 챕터 씬 측 연결 예시. 각 Chapter 씬에 하나 배치하고,
-/// 클리어 조건 달성 시 Complete(), 포기 시 Quit()을 호출한다.
+/// 챕터 씬 측 연결 예시. 각 Chapter 씬에 하나 배치
+/// 클리어 조건 달성 시 Complete(), 포기 시 Quit()을 호출
 /// </summary>
 public class ChapterSceneController : MonoBehaviour
 {

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// 현재 챕터 인덱스 보관과 씬 전환만 담당. 해금 판단은 하지 않는다.
+/// 현재 챕터 인덱스 보관 & 씬 전환 담당
 /// </summary>
 public static class GameFlow
 {

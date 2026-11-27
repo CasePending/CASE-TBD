@@ -1,8 +1,10 @@
 using UnityEngine;
 
 /// <summary>
-/// 선택 화면. ProgressService에 상태를 물어 버튼에 전달하고 클릭을 GameFlow로 넘긴다.
-/// 해금 규칙은 직접 판단하지 않는다.
+/// 선택 화면.
+/// ProgressService에 챕터 상태(클리어/잠금/해금)를 물어 버튼에 전달
+/// 챕터 진입버튼 클릭을 GameFlow로 전달
+/// 해금 규칙 직접 판단 X
 /// </summary>
 public class ChapterSelectUI : MonoBehaviour
 {
